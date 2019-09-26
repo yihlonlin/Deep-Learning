@@ -1,0 +1,7 @@
+pip install graphviz
+pip install pydot
+pip install pydot-ng
+
+from keras.utils import plot_model
+
+plot_model(model,to_file='model.png',show_shapes=True)
